@@ -1,0 +1,81 @@
+.mainContainer {
+  display: flex;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.card {
+  background-color: #ffffff;
+  width: 80%;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+.heading {
+  font-size: 20px;
+  margin-top: 0px;
+}
+.input {
+  margin: 5px;
+  margin-left: 0px;
+  outline: none;
+}
+.imgDetailsDev {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 40px;
+}
+.img {
+  height: 10rem;
+}
+.btn {
+  margin-top: 10px;
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 4px 8px 4px 8px;
+  font-size: 10px;
+}
+.para {
+  font-size: 15px;
+}
+.unorderList {
+  list-style-type: none;
+}
+.separator {
+  border: solid 1px #171f46;
+  width: 100%;
+  height: 0.5px;
+}
+.unorderList {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  padding-right: 50px;
+  padding-left: 10px;
+}
+.btn1 {
+  border-radius: 10px;
+  border-width: 1px;
+  outline: none;
+}
+.appointmentList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.appointHead {
+  font-size: medium;
+}
+.addStyle {
+  background-color: #9897f0;
+  color: #ffffff;
+}
